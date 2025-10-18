@@ -216,31 +216,37 @@ header {
   padding: 10px 20px;
   display: flex;
   justify-content: center;
-  gap: 5px;
+  gap: 15px; 
   font-size: 13px;
   font-weight: 500;
   color: white;
 }
 
 .tabs a {
-  color: white;
+  color: #f0f4f8;
   text-decoration: none;
-  white-space: nowrap;
-  position: relative;
+  padding: 8px 15px;
   display: inline-block;
-  padding: 6px 8px;
+  position: relative; 
 }
+
 
 .tabs a:not(:last-child)::after {
   content: "|";
   color: white;
   position: absolute;
-  right: -9px;
+  right: -12px;
   top: 50%;
   transform: translateY(-50%);
   user-select: none;
   pointer-events: none;
 }
+
+
+section:target {
+  scroll-margin-top: 100px;
+}
+
 
 .tabs a:hover {
   color: gold;
@@ -346,6 +352,7 @@ header {
   font-size: 1rem;
   font-weight: 700;
   color: #222;
+
   text-align: center;
 }
 
@@ -356,3 +363,57 @@ header {
   max-width: 200px;
   text-align: center;
 }
+
+.career-path {
+  padding: 50px 20px;
+   background-color: #bb1313;
+  text-align: center;
+}
+
+.career-path h3 {
+  font-size: 20 px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #080000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.career-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.career-content p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 25px;
+  color: #000000;
+}
+
+
+.career-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.career-content ul li {
+  font-size: 16px;
+  color: #0a0000;
+  background: #ffffff;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.career-content ul li:hover {
+  transform: translateY(-3px);
+}
+
