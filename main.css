@@ -356,8 +356,21 @@ header {
   max-width: 200px;
   text-align: center;
 }
+
+.org{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
 .org img{
-  width: 100;
+  max-width: 80%uto;
   height: auto;
   display: block;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
