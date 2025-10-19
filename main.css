@@ -359,8 +359,8 @@ header {
 /* org pic part */
 
 .org img{
-  width: 90%;
-  height: 100%;
+  width: 20%;
+  height: 20%;
   display: block;
 }
 body, html {
