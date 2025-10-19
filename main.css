@@ -356,7 +356,7 @@ header {
   max-width: 200px;
   text-align: center;
 }
-
+/* org pic part */
 .org{
   display: flex;
   justify-content: center;
@@ -365,7 +365,7 @@ header {
 
 }
 .org img{
-  max-width: 80%uto;
+  max-width: 80%;
   height: auto;
   display: block;
 }
