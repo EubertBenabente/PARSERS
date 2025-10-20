@@ -357,17 +357,3 @@ header {
   max-width: 200px;
   text-align: center;
 }
-.org{
-  position: absolute;
-  height: 200px;
-  width: 200px;
-}
-.org img{
-  position: absolute;
-  width: 200px; 
-  height: auto;
-}
-body, html{
-  width: 100%;
-  height: auto;
-}
