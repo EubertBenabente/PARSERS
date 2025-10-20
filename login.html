@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | BSIT Academic Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="login.css">
+  <link rel="icon" href="logo.png" type="image/png">
+</head>
+
+<body>
+  <div class="login-container">
+    <div class="logo-bg"></div>
+
+    <div class="login-box">
+      <div class="logo">
+        <img src="logo.png" alt="CTU Logo">
+        <h2>BSIT Academic Portal</h2>
+      </div>
+
+      <!-- No JS – just a form redirect -->
+      <form action="main.html" method="get">
+        <div class="input-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" placeholder="Enter your username" required>
+        </div>
+
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        </div>
+
+        <button type="submit" class="login-btn">Login</button>
+
+        <p class="note">Don’t have an account? <a href="#">Contact your administrator</a></p>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
