@@ -12,27 +12,27 @@ body {
 
 
 
-html {/* Sidebar Styling */
+html {
 .sidebar {
   position: fixed;
   top: 0;
-  right: -260px; /* hidden by default */
+  right: -260px;
   width: 250px;
   height: 100vh;
   background-color: #ffffff;
-  box-shadow: -4px 0 10px rgba(0, 0, 0, 0.25); /* subtle shadow instead of border */
+  box-shadow: -4px 0 10px rgba(0, 0, 0, 0.25); 
   transition: right 0.3s ease;
   z-index: 2000;
   padding: 25px 20px;
   font-family: 'Open Sans', sans-serif;
 }
 
-/* Sidebar visible when toggled */
+
 #sidebar-toggle:checked + .sidebar {
   right: 0;
 }
 
-/* Close button */
+
 .close-btn {
   float: right;
   font-size: 22px;
@@ -46,7 +46,6 @@ html {/* Sidebar Styling */
   color: #111;
 }
 
-/* Sidebar title */
 .sidebar-title {
   color: #c71313;
   font-weight: 700;
@@ -55,7 +54,6 @@ html {/* Sidebar Styling */
   font-size: 20px;
 }
 
-/* Sidebar links */
 .sidebar a {
   display: block;
   color: #111;
@@ -77,7 +75,6 @@ html {/* Sidebar Styling */
   color: white;
 }
 
-/* Menu (bars) icon in header */
 .menu-icon {
   cursor: pointer;
   font-size: 20px;
