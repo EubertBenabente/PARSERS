@@ -12,6 +12,19 @@
 
 <body>
 
+  <input type="checkbox" id="sidebar-toggle" hidden>
+
+  <div class="sidebar">
+    <label for="sidebar-toggle" class="close-btn"><i class="fa fa-times"></i></label>
+    <a href="#"><i class="fa fa-user icon"></i>Profile</a>
+    <a href="#"><i class="fa fa-book icon"></i>Subjects</a>
+    <a href="#"><i class="fa fa-graduation-cap icon"></i>Grades</a>
+    <a href="#"><i class="fa fa-calculator icon"></i>GPA Tools</a>
+    <a href="#"><i class="fa fa-folder-open icon"></i>Documents</a>
+    <a href="#"><i class="fa fa-envelope icon"></i>Contact</a>
+    <a href="#"><i class="fa fa-sign-out-alt icon"></i>Logout</a>
+  </div>
+
   <header>
     <div class="logo">
       <img src="logo.png" alt="Logo">
@@ -30,20 +43,44 @@
         <a href="#">Faculty</a>
         <a href="#"><i class="fa fa-search"></i> Quick Search</a>
         <a href="#"><i class="fa fa-user"></i> Login</a>
-        <a href="#"><i class="fa fa-bars"></i></a>
+        <label for="sidebar-toggle" class="menu-icon"><i class="fa fa-bars"></i></label>
       </div>
     </div>
 
 
 
     <div class="navbar-bottom">
-      <a href="#">Majors</a>
-      <a href="#">Session</a>
-      <a href="#">Performance Measures</a>
-      <a href="#">GPA Calculator</a>
-      <a href="#">Course Mapping Calculator</a>
-      <a href="#">LMS Utilization</a>
+  <div class="dropdown">
+    <a href="#">Majors ▾</a>
+    <div class="dropdown-content">
+      <a href="#">Web Development</a>
+      <a href="#">Network Administration</a>
+      <a href="#">Database Management</a>
+      <a href="#">Software Engineering</a>
     </div>
+  </div>
+
+  <div class="dropdown">
+    <a href="#">Session ▾</a>
+    <div class="dropdown-content">
+      <a href="#">AM</a>
+      <a href="#">PM</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+  <a href="#">Performance Measures ▾</a>
+  <div class="dropdown-content">
+    <a href="#">Student Outcomes</a>
+    <a href="#">Program Educational Objectives</a>
+    <a href="#">Accreditation Results</a>
+    <a href="#">Continuous Improvement</a>
+  </div>
+</div>
+
+  <a href="gpacalcu.html">GPA Calculator</a>
+</div>
+
 
 
   </header>
