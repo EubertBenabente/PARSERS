@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e1dfdf;
+  overflow: hidden;
+ 
+}
+
+.logo-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('loginbg.png') no-repeat center center/contain;
+  filter: blur(0px) brightness(0.9);
+  background-size: cover;
+  z-index: -1;
+}
+
+.login-box {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 40px;
+  width: 350px;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+.logo img {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.logo h2 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.input-group {
+  text-align: left;
+  margin: 15px 0;
+}
+
+.input-group label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background: rgba(255,255,255,0.2);
+  color: #0d0c0c;
+  font-size: 1rem;
+}
+
+.input-group input::placeholder {
+  color: rgba(255,255,255,0.7);
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background: #910d0d;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+.login-btn:hover {
+  background: #ab0a0a;
+}
+
+.note {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.note a {
+  color: #9e1212;
+  text-decoration: none;
+}
